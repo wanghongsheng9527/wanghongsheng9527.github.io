@@ -7,21 +7,21 @@ url: "https://wanghongsheng9527.github.io"
 
 
 # GitHub User settings
-username: Username
-github_username: github_username
+username: 三生红绳
+github_username: wanghongsheng9527
 user_description: user_description
-user_title: user_title
-email: 
+user_title: Whs_title
+email: wanghongsheng9527@163.com
 
 # Blog Author settings
 author:
-  name: whs            
-  picture:        
-  email:           
-  description:     
+  name: Hongsheng Wang  
+  picture:  https://whs-guli-file.oss-cn-beijing.aliyuncs.com/images/life/athor.jpg      
+  email:  wanghongsheng9527@163.com         
+  description:  为了未来奋斗，加油！王大头！   
   twitter:
   facebook:
-  github:          
+  github: https://github.com/wanghongsheng9527         
   linkedin:
   clustrmap:      
 
