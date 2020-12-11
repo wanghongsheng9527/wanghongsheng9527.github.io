@@ -1,9 +1,9 @@
 # Site settings
-title: Website Title
-description: Website short description
+title: HongSheng の Blog
+description: 最爱刘宝宝
 baseurl: "" 
 #change the baseurl to "" if you are using it as your user GitHub Pages
-url: "https://yk-liu.github.io"  
+url: "https://wanghongsheng9527.github.io"  
 
 
 # GitHub User settings
@@ -15,7 +15,7 @@ email:
 
 # Blog Author settings
 author:
-  name:            
+  name: whs            
   picture:        
   email:           
   description:     
