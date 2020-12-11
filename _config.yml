@@ -1,78 +1,77 @@
-encoding: utf-8
+# Site settings
+title: Website Title
+description: Website short description
+baseurl: "" 
+#change the baseurl to "" if you are using it as your user GitHub Pages
+url: "https://yk-liu.github.io"  
 
-# SEO相关信息
-title: 红绳 Blog
-description: 红绳的个人博客
-keywords: 红绳,Blog,Java,框架,分布式,vue,MySql,Redis,Linux
-author: 红绳
-footerText: 'Copyright © 2016 皖ICP备16016174号'
 
-# 这些不要动
-permalink: /posts/:year/:month/:day/:title.html
+# GitHub User settings
+username: Username
+github_username: github_username
+user_description: user_description
+user_title: user_title
+email: 
+
+# Blog Author settings
+author:
+  name:            
+  picture:        
+  email:           
+  description:     
+  twitter:
+  facebook:
+  github:          
+  linkedin:
+  clustrmap:      
+
+
+# markdown
+markdown: kramdown
+  
 kramdown:
-  auto_ids: true
-  input: GFM
-exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'cli.bat', 'dist.tar.gz']
+ footnote_nr: 1
+ entity_output: as_char
+ # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+ syntax_highlighter: rouge
+ syntax_highlighter_opts:
+  # Use existing pygments syntax highlighting css
+  css_class: 'highlight'
+ span:
+  line_numbers: false
+ block:
+  line_numbers: true
+  start_line: 1
+ 
+highlighter: rouge
+    
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+permalink: none
 
-# 域名配置
-# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-#-domainUrl: 'http://blog.tmaize.net'
-baseurl: ''
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      toc: true
+      mathjax: true
+      mermaid: false
+      highlight: false
+      numbering: true
+      status: Completed
+      protected: false
+      commentable: true
+      rss: true
+      numbering: true
 
-# 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://support.qq.com/product/86335
-
-# 菜单
-menu:
-  - title: 首页
-    url: /
-  - title: 归类
-    url: /pages/categories.html
-  - title: 搜索
-    url: /pages/search.html
-  - title: 友链
-    url: /pages/links.html
-  - title: 留言
-    url: /pages/chat.html
-  - title: 关于
-    url: /pages/about.html
-
-# 点击页面文字冒出特效,不需要请设置为false
-extClickEffect: true
-
-# Google Adsense,不需要请设置为false
-# _includes/ext-adsense.html 里面修改为自己的配置
-extAdsense: false
-
-# 腾讯MTA移动分析,不需要请设置为false
-# _includes/ext-adsense.html 里面修改为自己的配置
-extMTA: true
-
-# 百度收录自动推送,不需要请设置为false
-extBaidu: true
-
-# 数学公式支持，比较影响加载速度,不需要请设置为false
-extMath: false
-
-# 友情链接
-links:
-    title: Linux指令大全
-    url: https://wangchujiang.com/linux-command/
-  #- title: 文科中的技术宅
-#-url: https://www.townwang.com
-  #-- title: Auuu Nya Blog
- #-   url: http://mu1er.cn
- #- - title: 春风十里
-  #-  url: https://www.geek-era.com
-#-- title: 阿川的个人博客
-  #-  url: https://achuan.io
- #- - title: 魏文成博客
-  #-  url: https://www.wwc.ren
-  #-- title: 06m
-  #-  url: https://www.06m.me
- #- - title: 达达知识
- #-   url: https://www.dadapush.com/
- #- - title: 祈雨的博客
- #-   url: https://wakzz.cn/
-  #-- title: hongCYu’s Blog
- #-   url: https://hongcyu.cn/
+exclude:
+ - LICENSE.md
+ - README.md
+ - "*.cdf"
+ - "*.nb"
+ - "*.bk"
+ - "*.draft.md"

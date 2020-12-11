@@ -1,6 +1,4 @@
-/_site
-/dist
-/dist.tar.gz
-/Gemfile.lock
-/.jekyll-cache
-/.xxx
+_site
+.sass-cache
+node_modules
+.DS_STORE
