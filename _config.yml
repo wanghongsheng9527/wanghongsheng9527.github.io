@@ -56,6 +56,8 @@ extMath: false
 
 # 友情链接
 links:
+    title: Linux指令大全
+    url: https://wangchujiang.com/linux-command/
   #- title: 文科中的技术宅
 #-url: https://www.townwang.com
   #-- title: Auuu Nya Blog
